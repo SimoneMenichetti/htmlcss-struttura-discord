@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
-    background-color: grey;
+    
 }
 
 
@@ -15,6 +15,37 @@
 }
 
 /* rules main-nav */
+.head-containerflex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* debug rules */
+    min-height: 70px;
+    background-color: rgb(146, 97, 5);
+    border: solid black 2px;
+
+}
+
+.head-containerflex .link{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 200px;
+}
+
+.head-containerflex a{
+    text-decoration: none;
+}
+
+.head-containerflex li{
+    list-style-type: none;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 
