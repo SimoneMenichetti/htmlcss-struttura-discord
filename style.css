@@ -1,8 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0 auto;
     padding: 0;
-    
+    margin: auto;
 }
 
 
@@ -14,7 +13,13 @@
     padding-bottom: 20px;
 }
 
+
+
 /* rules main-nav */
+
+section {
+    background-color: aqua;
+}
 .head-containerflex {
     display: flex;
     justify-content: space-around;
@@ -41,11 +46,25 @@
 .head-containerflex li{
     list-style-type: none;
 }
-
+.logo{
+    display: flex;
+    justify-content: flex-start; 
+}
 .login{
     display: flex;
     justify-content: flex-end;
 }
 
+/* rules lastcontent header */
+
+.firstcontent{
+    background-color: pink;
+    width: 80%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
 
 
