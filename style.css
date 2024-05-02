@@ -80,6 +80,7 @@ header{
     width: 100%;
 }
 
+
 /* display flex square a-b */
 
 /* debug */
@@ -104,10 +105,17 @@ header{
     
 }
 .square-a , .square-b{
-    min-height: 400px;
+    /* min-height: 400px; */
     display: flex;
     justify-content: center;
     
     margin-top: 20px;
 }
 
+.bigblock{
+    background-color: green;
+    min-width: 600px;
+    min-height: 300px;
+}
+
+/* rules footer */
