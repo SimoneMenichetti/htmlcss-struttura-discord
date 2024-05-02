@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: auto;
+ 
 }
 
 
@@ -59,10 +59,9 @@ header{
 
 .firstcontent{
     background-color: rgb(160, 27, 109);
-    width: 60%;
-    min-height: 400px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 20px;
     
 }
@@ -108,7 +107,7 @@ header{
     min-height: 400px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     margin-top: 20px;
 }
 
