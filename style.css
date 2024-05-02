@@ -76,7 +76,7 @@ header{
 
 .square-b {
 
-    background-color: grey;
+    background-color: lightgrey;
     width: 100%;
 }
 
@@ -145,3 +145,26 @@ footer{
     min-width: 100px;
     background-color: rgb(6, 93, 60);
 }
+
+
+
+hr {
+    color: white;
+}
+
+.pretail {
+    background-color: black;
+    
+}
+
+.button-endrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* debug rules */
+    min-height: 50px;
+    background-color: lightgreen;
+}
+
+
