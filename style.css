@@ -120,4 +120,28 @@ header{
 
 /* rules footer */
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
 
+.column-big , .column {
+
+    min-height: 300px;
+    border: white 1px dotted;
+}
+
+.column-big {
+
+    min-width: 200px;
+    background-color: rgb(195, 84, 65);
+}
+
+.column {
+
+    min-width: 100px;
+    background-color: rgb(6, 93, 60);
+}
