@@ -1,16 +1,15 @@
 *{
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
  
 }
 
 
 /* rules general webpage */
 
-#allcontainer{
-    width:80%;
-    margin: 20px auto;
-    padding-bottom: 20px;
+a {
+    text-decoration: none;
 }
 
 header{
@@ -28,15 +27,9 @@ header{
 
     /* debug rules */
     min-height: 70px;
-    background-color: rgb(146, 97, 5);
+    background-color:  rgb(34, 235, 235);
     border: solid black 2px;
 
-}
-
-.head-containerflex .link{
-    display: flex;
-    justify-content: space-around;
-    flex-basis: 200px;
 }
 
 .head-containerflex a{
@@ -46,24 +39,47 @@ header{
 .head-containerflex li{
     list-style-type: none;
 }
-.logo{
+
+
+#jambonav{
     display: flex;
-    justify-content: flex-start; 
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20px; 
+    width: 80%; 
+    background-color: rgb(146, 101, 11);
 }
-.login{
+.head-logo{
+    background-color: rgb(146, 101, 11);
+   width: 50px;
+   border: white 1px dotted;
+}
+
+.head-link, ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-basis: 200px;
+    border: white 1px dotted;
+}
+.head-login{
+   border: white 1px dotted;
 }
 
 /* rules lastcontent header */
-
-.firstcontent{
-    background-color: rgb(160, 27, 109);
+.jambocontainer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    background-color: blue;
+
+}
+.jambo{
+    background-color: rgb(160, 27, 109);
     
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+    width: 70%;
 }
 
 /* rules main section */
@@ -104,7 +120,7 @@ header{
     min-height: 300px;
     
 }
-.square-a , .square-b{
+.square-a, .square-b{
     /* min-height: 400px; */
     display: flex;
     justify-content: center;
@@ -120,7 +136,7 @@ header{
 
 /* rules footer */
 
-footer{
+.container-column{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,24 +163,38 @@ footer{
 }
 
 
-
 hr {
     color: white;
 }
 
-.pretail {
-    background-color: black;
-    
-}
-
 .button-endrow{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+   
+  
     /* debug rules */
     min-height: 50px;
-    background-color: lightgreen;
+    background-color: rgb(0, 10, 0);
+    border: white 1px dotted;
 }
 
+.logofooter, .bottonfooter{
+    border: white 1px dotted;
+}
 
+ .logofooter{
+    min-height: 20px;
+    width: 40px;
+  background-color: salmon;
+  text-align: left;
+}
+
+.bottonfooter{
+    min-height: 20px;
+    width: 40px;
+  background-color: salmon;
+  text-align: right
+  
+
+}
